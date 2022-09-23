@@ -1,0 +1,218 @@
+.w-100 {
+    width: 100%;
+}
+.w-90{
+    width: 90%;
+    margin: auto;
+}
+/* text config */
+.text-gray {
+    color: gray;
+}
+.text-white {
+       color: white;
+}
+.text-center{
+    text-align: center;
+}
+/* ========= */
+
+
+/* margin config */
+.mg-20{
+    margin: 20px;
+}
+.mgT-20{
+    margin-top: 20px;
+}
+.mgT-10{
+    margin-top: 10px;
+}
+
+/* ======= */
+.p-40{
+    padding: 40px;
+}
+
+.p-20{
+    padding: 20px;
+}
+/* padding config */
+
+
+.title{
+    font-size: 40px;
+}
+.subtitle{
+    font-size: 30px;
+}
+.workTitle{
+    font-size: 20px;
+
+}
+
+
+/* GLOBALS */
+body {
+    width: 65%;
+    margin: auto;
+
+}
+button{
+    background-color: red;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    translate: 0px -5px;
+    box-shadow: 3px 3px 10px silver;
+}
+p{
+    line-height: 25px;
+}
+
+tr {
+    height: 5vh;
+}
+td{
+    padding-left: 50px;
+} 
+
+
+
+
+/* nav section */
+nav {
+    float: left;
+    height: 15vh;
+}
+
+nav p {
+    float: left;
+
+    line-height: 15vh;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+nav i {
+    float: right;
+    margin-top: 6vh;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+nav a {
+    float: right;
+    text-decoration: none;
+
+}
+
+
+/* main section */
+
+
+main {
+    float: left;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+
+
+}
+
+/* Photo container */
+#photo-container {
+    float: left;
+    border: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #4a89dc;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPScxMDAnIGhlaWdodD0nMTAwJyB2aWV3Qm94PScwIDAgMTAwIDEwMCc+PGcgZmlsbC1ydWxlPSdldmVub2RkJz48ZyBmaWxsPScjZmZmZmZmJyBmaWxsLW9wYWNpdHk9JzAuMTInPjxwYXRoIG9wYWNpdHk9Jy41JyBkPSdNOTYgOTVoNHYxaC00djRoLTF2LTRoLTl2NGgtMXYtNGgtOXY0aC0xdi00aC05djRoLTF2LTRoLTl2NGgtMXYtNGgtOXY0aC0xdi00aC05djRoLTF2LTRoLTl2NGgtMXYtNGgtOXY0aC0xdi00SDB2LTFoMTV2LTlIMHYtMWgxNXYtOUgwdi0xaDE1di05SDB2LTFoMTV2LTlIMHYtMWgxNXYtOUgwdi0xaDE1di05SDB2LTFoMTV2LTlIMHYtMWgxNXYtOUgwdi0xaDE1VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg5VjBoMXYxNWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OWg0djFoLTR2OXptLTEgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTktMTBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptOS0xMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTktMTBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptOS0xMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTktMTBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptOS0xMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTEwIDB2LTloLTl2OWg5em0tMTAgMHYtOWgtOXY5aDl6bS0xMCAwdi05aC05djloOXptLTktMTBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXptMTAgMGg5di05aC05djl6bTEwIDBoOXYtOWgtOXY5em0xMCAwaDl2LTloLTl2OXonLz48cGF0aCBkPSdNNiA1VjBINXY1SDB2MWg1djk0aDFWNmg5NFY1SDZ6Jy8+PC9nPjwvZz48L3N2Zz4=);
+    width: 100%;
+    height: 35vh;
+}
+
+#user-photo{
+    float: left;
+    margin-top: 7%;
+    margin-left: 5%;
+    width: 20%;
+    height: 28vh;
+    border: 7px solid white;
+    box-shadow: 1px 1px 5px silver ;
+    background-image:url(images/Tahir.webp);
+    background-size: cover;
+    transition: 500ms;
+
+}
+#user-photo:hover{
+    translate: 0px -5px;
+}
+
+
+
+#text{
+    float: right;
+    margin-top: 4%;
+    margin-right: 35%;
+}
+#btn1{
+    background-color: white;
+}
+#btn2{
+    background-color: #37bc9b;
+    margin-left: 10px;
+}
+
+/* ======================== */
+
+
+
+/* about me  */
+#aboutMe{ 
+    float: left;
+    height: 40vh;
+    border-bottom: 1px solid silver;
+}
+#about{
+    float: left;
+    width: 60%;
+}
+
+
+#info{
+    float: right;
+    width: 40%;
+}
+
+
+/* ======================== */
+
+/* Experience */
+
+#experience {
+    float: left;
+}
+
+#works{
+    float: left;
+    border: none;
+    border-left: 2px solid silver;
+}
+.work{
+   
+border: 1px solid gray ;
+border-left: 3px solid rgb(77, 77, 255);
+border-radius: 3px;
+    height: 20vh;
+}
+.work h2{
+    display: inline;
+}
+.workInfo{
+    line-height: 18px;
+}
+/* ======================== */
